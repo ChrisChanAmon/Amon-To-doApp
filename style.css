@@ -1,0 +1,61 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #container {
+    background-color: white;
+    padding: 180px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 42px;
+  }
+  
+  input {
+    font-size: 18px;
+  }
+  
+  button {
+    font-size: 18px;
+    border: none;
+    background-color: orange;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: rgb(229, 185, 104);
+  }
+  
+  button:active {
+    background-color: rgb(233, 192, 114);
+  }
+  
+  /* elements created in JS */
+  
+  .task {
+    font-size: 20px;
+    list-style: square;
+  }
+  
+  .delete {
+    font-size: 30px;
+    color: red;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    color: rgb(230, 104, 104);
+  }
+  
+  .delete:active {
+    color: rgb(230, 104, 104);
+  }
